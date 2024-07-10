@@ -268,6 +268,8 @@ nav{
 }
 .support-section-form{
     margin-top: 24px;
+    display: flex;
+    gap: 30px;
 }
 
 .support-section-form input{
@@ -282,7 +284,7 @@ nav{
 }
 .support-section-form-btn{
     width: 120px;
-    height: 58px;
+    height: 60px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
     font-size: 20px;
