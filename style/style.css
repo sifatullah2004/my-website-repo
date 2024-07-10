@@ -76,9 +76,13 @@
     border-radius: 8px;
     opacity: 0.8;
     height: 58px;
-    left: 1046px;
+    /* left: 1046px; */
     width: 220px;
     font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 } 
 
 .banner-container{
@@ -114,6 +118,10 @@
     color: white;
     font-size: 20px;
     font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 nav{
     margin-bottom: 88px;
