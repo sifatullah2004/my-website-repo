@@ -50,6 +50,7 @@
 /* nav style start here */
 .nav-manu-content{
     width: 1440px;
+    margin: 0 auto;
 }
 .nav-manu-content ul{
     list-style: none;
@@ -83,6 +84,8 @@
     max-width: 1440px;
     height: 652px;
     background-image: url('../assets/Hero-bg.png');
+    margin: 0 auto;
+    background-size: cover;
    
 }
 .banner-content{
@@ -176,8 +179,8 @@ nav{
 /* target-section start */
 .target-section{
     max-width: 1140px;
-    border: 2px solid red;
-    margin: 0 auto;
+    margin: 111px auto;
+
 }
 .section-cardbox{
     display: flex;
@@ -218,3 +221,59 @@ nav{
     border-radius: 16px;
 }
 /* target-section end */
+/* support-section  start */
+.support-section{
+    max-width: 1140px;
+    margin: 46px auto;
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: overlay;    
+
+}
+.support-section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px 64px 48px;
+    justify-content: space-between;
+    gap: 18px;
+}
+.support-section-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.support-section-description{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+
+
+}
+.support-section-form{
+    margin-top: 24px;
+}
+
+.support-section-form input{
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    padding: 19px 20px 19px 20px;;
+
+}
+.support-section-form-btn{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+/* support-section  end */
