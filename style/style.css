@@ -67,6 +67,7 @@
 .nav-manu-content li a{
     text-decoration: none;
     color: rgb(13, 19, 33);
+    font-weight: bolder;
 }
 .nav-manu-btn{
     /* height: 58px;
@@ -143,6 +144,17 @@ nav{
     width: 259.56px;
     height: 217.01px;
 }
+.section-1-btn{
+    width: 150px;
+    height: 48px;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
 .section-content-2{
     margin-top: 48px;
     display: flex;
@@ -277,3 +289,26 @@ nav{
     font-weight: 600;
 }
 /* support-section  end */
+/* footer style */
+footer{
+    max-width: 1440px;
+    height: 100px;
+    margin: 89px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px;
+}
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+    color: (13, 19, 33);
+    text-align: center;
+}
+.footer-image{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
