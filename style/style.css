@@ -189,11 +189,17 @@ nav{
     margin-top: 48px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+    width: 1075px;
+    margin: 44px auto;
+    padding: 25px;
+} 
+.video{
+    margin-top: 48px;
+    /* border: 1px solid rgba(13, 19, 33, 0.2); */
+    border-radius: 16px;
     width: 1020px;
     margin: 44px auto;
-}
-.inspiration-section-video iframe{
-    padding: 25px 25px 25px 25px;
+
 }
 /* inspiration-section end */
 /* target-section start */
